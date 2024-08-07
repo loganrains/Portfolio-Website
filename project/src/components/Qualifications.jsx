@@ -1,5 +1,7 @@
-function Qualifications() {
+export default function Qualifications() {
     return(
-        <p>Build out list of qualifications . . .</p>
+        <div>
+            <p>Build out list of qualifications . . .</p>
+        </div>
     );
 }
