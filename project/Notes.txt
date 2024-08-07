@@ -1,1 +1,0 @@
-LC React Reading - https://education.launchcode.org/intro-to-web-dev-curriculum/react-lsn1/reading/more-on-vite/index.html
