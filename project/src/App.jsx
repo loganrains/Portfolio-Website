@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Greeter from './components/Greeter.jsx'
-import Qualifications from './components/Qualifications.jsx'
+import QSO from './components/QSO.jsx'
+import Greetings from './components/Greetings.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,11 +9,10 @@ function App() {
   return (
     <>
       <div>
-        <Greeter/>
+        <Greetings/>
       </div>
       <div>
-        <h1>Logan's Qualifications</h1>
-        <Qualifications/>
+        <QSO/>
       </div>
     </>
   )
