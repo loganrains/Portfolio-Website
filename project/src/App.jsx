@@ -10,17 +10,19 @@ function App() {
 
   return (
     <>
-      <div>
-        <Greetings/>
-      </div>
-      <div>
-        <ContactInfo/>
-      </div>
-      <div>
-        <Bio/>
-      </div>
-      <div>
-        <QSO/>
+      <div class='background'>
+        <div>
+          <Greetings/>
+        </div>
+        <div>
+          <ContactInfo/>
+        </div>
+        <div>
+          <Bio/>
+        </div>
+        <div>
+          <QSO/>
+        </div>
       </div>
     </>
   )
