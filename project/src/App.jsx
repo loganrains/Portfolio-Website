@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Sidebar from './components/Sidebar.jsx'
 import QSO from './components/QSO.jsx'
 import Greetings from './components/Greetings.jsx'
 import ContactInfo from './components/ContactInfo.jsx'
@@ -11,6 +12,9 @@ function App() {
   return (
     <>
       <div class='background'>
+        <div>
+          <Sidebar/>
+        </div>
         <div>
           <Greetings/>
         </div>
