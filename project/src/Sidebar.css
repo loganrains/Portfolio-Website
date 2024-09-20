@@ -14,7 +14,7 @@
   
   /* Color/shape of burger icon bars on hover*/
   .bm-burger-bars-hover {
-    background: #a90000;
+    background: #F36B1C;
   }
   
   /* Position and sizing of clickable cross button */
@@ -35,6 +35,7 @@
   .bm-menu-wrap {
     position: fixed;
     height: 100%;
+    top: 30px;
   }
   
   /* General sidebar styles */
@@ -42,6 +43,7 @@
     background: #373a47;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
+
   }
   
   /* Morph shape necessary with bubble or elastic */
